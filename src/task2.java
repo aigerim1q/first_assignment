@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class task2 {
-    public static void printaverage(int arr[],int n) {
+    public static void printave(int arr[],int n) {
         float a=0;
         for(int i=0;i<n;i++){
              a=a+arr[i];
@@ -18,7 +18,7 @@ public class task2 {
         for (int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        printaverage(arr,n);
+        printave(arr,n);
     }
 
 
