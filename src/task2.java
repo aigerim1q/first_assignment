@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class task2 {
     public static void printave(int arr[],int n) {
-        float a=0;
+        float c=0;
         for(int i=0;i<n;i++){
-             a=a+arr[i];
+             c=c+arr[i];
         }
-        float average=a/n;
+        float average=c/n;
         System.out.println(average);
     }
 
