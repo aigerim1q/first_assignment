@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class task3 {
-    public static void printprime(int n) {
+    public static void printprimeornot(int n) {
         if (n==2){
             System.out.println("prime");
         } else if (n%2!=0) {
@@ -18,7 +18,7 @@ public class task3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        printprime(n);
+        printprimeornot(n);
     }
 
 
